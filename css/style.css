@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B91350;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* UTILITY */
+.wrapper h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    opacity: 0;
+    transition:0.5s;
+}
+
+
+.show {
+    opacity: 1;
+    transition:0.5s;
+}
+/* FINE UTILITY */
+
+.top-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #B91350;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 16px;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+input:focus {
+    background-color: #B91350;
+    color: white;
+}
+input:focus::placeholder {
+    color: white;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #B91350;
+}
+
+select {
+    height: 25px;
+    border: 1px solid #B91350;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+select:focus {
+    background-color: #B91350;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: lightgrey;
+    color: #B91350;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: grey;
+}
+
+.bottom-container {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+table {
+    height: 200px;
+    width: 100%;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.row_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-top: 1px solid black;
+    border-bottom: 1px solid grey;
+}
+
+.row_bottom .col {
+    padding: 0;
+}
+
+.col.grey {
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.padding {
+    padding:20px;
+}
+
+th,td {
+    text-align: left;
+    padding: 15px;
+}
