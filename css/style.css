@@ -120,6 +120,12 @@ table {
     width: 100%;
 }
 
+th,td {
+    text-align: left;
+    text-align: center;
+    padding: 15px;
+}
+
 .grey {
     background-color: grey;
 }
@@ -128,13 +134,11 @@ table {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border-top: 1px solid black;
-    border-bottom: 1px solid grey;
+    border-top: 3px solid black;
+    border-bottom: 3px solid #99d9da;
 }
 
-.row_bottom .col {
-    padding: 0;
-}
+
 
 .col.grey {
     padding-top: 40px;
@@ -142,11 +146,13 @@ table {
     padding-left: 10px;
 }
 
-.padding {
-    padding:20px;
+#biglietto {
+    width: 80%;
+    background-image: url("../img/sfondo_ticket.jpg");
+    background-size: 35%;
+    box-shadow: 10px 10px 15px rgb(0 0 0);
 }
 
-th,td {
-    text-align: left;
-    padding: 15px;
+.padding {
+    padding: 10px 20px 10px 0;
 }
