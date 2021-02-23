@@ -148,10 +148,14 @@ th,td {
 
 #biglietto {
     width: 80%;
-    background-image: url("../img/sfondo_ticket.jpg");
-    background-size: 35%;
     box-shadow: 10px 10px 15px rgb(0 0 0);
 }
+
+.ticket-print {
+    width: 100%;
+}
+.bg-biglietto 
+  
 
 .padding {
     padding: 10px 20px 10px 0;
